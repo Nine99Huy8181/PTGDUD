@@ -1,0 +1,30 @@
+div{
+    background-color: rgb(194, 255, 230);
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+    margin: 10px;
+    height: 30px;
+    background-color: aliceblue;
+    color:rgb(27, 134, 99);
+    font-size: 20px;
+    border-color: rgb(0, 53, 35);
+}
+
+button{
+    color: rgb(1, 49, 43);
+    background-color: rgb(27, 134, 99);
+}
+
+span{
+    color: rgb(1, 49, 43);
+    font-size: 25px;
+}
+
+h3{
+    color: rgb(0, 53, 35);
+    font-size: 50px;
+    text-transform: uppercase;
+}

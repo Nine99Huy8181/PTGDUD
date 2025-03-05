@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.leftSection {
+    margin-left: 20px;
+}
+
+.rightSection {
+    margin-right: 20px;
+}
+
+.inputStyle {
+    width: 250px;
+    height: 30px;
+}
+
+.buttonStyle {
+    height: 35px;
+    width: 100px;
+    background-color: #f44b87;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.listStyle {
+    list-style-type: none;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: white;
+}

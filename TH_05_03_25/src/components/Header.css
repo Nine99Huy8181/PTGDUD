@@ -1,0 +1,45 @@
+.container_head {
+    display: flex;
+}
+
+.imgPadding {
+    padding: 10px 20px;
+}
+
+.searchContainer {
+    display: flex;
+    padding-top: 10px;
+}
+
+.inputStyle {
+    border: 0px;
+    height: 30px;
+    margin-bottom: 20px;
+    width: 250px;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+}
+
+.navItem {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.buttonStyle_head {
+    background-color: #f44b87;
+    color: rgb(255, 2, 171);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0px;
+    height: 50px;
+}
+
+.avatarStyle {
+    margin-left: 50px;
+}

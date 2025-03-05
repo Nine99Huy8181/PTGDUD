@@ -1,0 +1,32 @@
+.item_content{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.item_content img{
+    border-radius: 10px;
+}
+
+.item_content span{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.item_content button{
+    background-color: #f44b87;
+    color: rgb(75, 1, 50);
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+}
+
+.item_content div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

@@ -1,38 +1,42 @@
 import React from 'react'
 import './MainLayout.css'
+import Statistic from '../Components/Statistic'
 
 export default function MainLayout() {
   return (
     <div className='gird-layout'>
         <div className='item1'>
-            <div>Dash board</div>
+            <div className='label-dashboard'>Dash board</div>
             <div className='header-infor'>
-                <input type="text" />
-                <span>icon</span>
-                <span>icon</span>
-                <span>icon</span>
+                <div style={{marginRight: "20px"}}><input type="text" /></div>
+                <div>
+                    <img src="../images/Bell 1.png" alt="" />
+                    <img src="../images/Question 1.png" alt="" />
+                    <img src="../images/Avatar (1).png" alt="" />
+                </div>
             </div>
         </div>
         <div className='item2'>
-            <div className='menu-logo'>Logo</div>
+            <div className='menu-logo'>
+                <img src="../images/Image 1858.png" alt="" />
+            </div>
             <div className='menu-bar'>
                 <ul>
-                    <li><a href="">Dash board</a></li>
-                    <li><a href="">Dash board</a></li>
-                    <li><a href="">Dash board</a></li>
-                    <li><a href="">Dash board</a></li>
-                    <li><a href="">Dash board</a></li>
-                    <li><a href="">Dash board</a></li>
+                    <li><img src="../images/Folder.png" alt="" /> <a href="">Dash board</a></li>
+                    <li><img src="../images/Groups.png" alt="" /> <a href="">Dash board</a></li>
+                    <li><img src="../images/Pie chart.png" alt="" /> <a href="">Dash board</a></li>
+                    <li><img src="../images/Chat.png" alt="" /> <a href="">Dash board</a></li>
+                    <li><img src="../images/Code.png" alt="" /> <a href="">Dash board</a></li>
                 </ul>
             </div>
         </div>
         <div className='item3'>
             <div>
-                <div>Overview</div>
+                <div className='overview'><img src="../images/Squares four 1.png" alt="" /> <span>Overview</span></div>
                 <div className='statistic'>
-                    <div>Component</div>
-                    <div>Component</div>
-                    <div>Component</div>
+                    <Statistic></Statistic>
+                    <Statistic></Statistic>
+                    <Statistic></Statistic>
                 </div>
             </div>
             <div className='content2'>
